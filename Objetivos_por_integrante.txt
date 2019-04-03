@@ -1,0 +1,11 @@
+Joaquin:
+
+- Clicks: 
+	*detallo tipos de las columnas del csv para lectura rapida
+	*veo clicks por dia de la semana (lun, mar, etc)
+	*comparo horarios de clicks dependiendo si es fin de semana o no
+- Auctions: 
+	*nada por ahora, es para mostrar como ir escribiendo este archivo jajajaj
+
+
+*** VAYAN AGREGANDO SU NOMBRE Y LO Q HICIERON O HARAN (DETALLANDO EN QUE ARCHIVO)
