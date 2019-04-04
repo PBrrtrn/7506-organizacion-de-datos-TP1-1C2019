@@ -13,5 +13,11 @@ Pablo:
 - Events
 	*agrupar eventos por device brand y analizar la dispersión de modelos de teléfono en las principales marcas
 
-
+Matias:
+- Auction: 
+	*Distribucion de auctions por dia y hora. 
+	*Comparacion entre top 10% de los devices vs el restante 90% (dia, hora, % del total)
+	*Comparacion entre top 1% de los devices vs el restante 99% (% del total)
+	*% de auctions provenientes de cada plataforma
+	*heatmap de auctions por dia y hora
 *** VAYAN AGREGANDO SU NOMBRE Y LO Q HICIERON O HARAN (DETALLANDO EN QUE ARCHIVO)
