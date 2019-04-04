@@ -1,0 +1,278 @@
+{
+    "clicks": {
+        "advertiser_id": {
+            "desc": "internal id for the advertiser, Jampp's client paying for the ad",
+            "transformation": "LabelEncoding"
+        },
+        "action_id": {
+            "desc": "internal id for an action",
+            "transformation": ""
+        },
+        "source_id": {
+            "desc": "internal id for the source (exchange) from which the click originated",
+            "transformation": "LabelEncoding"
+        },
+        "created": {
+            "desc": "creation time for the click",
+            "transformation": null
+        },
+        "country_code": {
+            "desc": "internal country code id",
+            "transformation": "string hashing"
+        },
+        "latitude": {
+            "desc": "estimated lat where the click was performed",
+            "transformation": "Some linear transformation"
+        },
+        "longitude": {
+            "desc": "estimated lon where then click was performed",
+            "transformation": "Some linear transformation"
+        },
+        "wifi_connection": {
+            "desc": "Boolean describing whether the click was performed while on a wifi network",
+            "transformation": null
+        },
+        "carrier_id": {
+            "desc": "Id for the mobile carrier of the device",
+            "transformation": "LabelEncoding"
+        },
+        "trans_id": {
+            "desc": "internal transaction id",
+            "transformation": null
+        },
+        "os_minor": {
+            "desc": "minor version for the OS",
+            "transformation": "string hashing"
+        },
+        "agent_device": {
+            "desc": "agent for the device the click was performed on (model)",
+            "transformation": "string hashing"
+        },
+        "os_major": {
+            "desc": "major version for the os",
+            "transformation": "string hashing"
+        },
+        "specs_brand": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "brand": {
+            "desc": "device brand",
+            "transformation": "LabelEncoding"
+        },
+        "timeToClick": {
+            "desc": "time to click in seconds",
+            "transformation": null
+        },
+        "touchX": {
+            "desc": "X position for the click",
+            "transformation": null
+        },
+        "touchY": {
+            "desc": "Y position for the click",
+            "transformation": null
+        },
+        "ref_type": {
+            "desc": "either apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "ref_hash": {
+            "desc": "device's apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        }
+    },
+    "installs": {
+        "created": {
+            "desc": "creation date for the install",
+            "transformation": null
+        },
+        "application_id": {
+            "desc": "internal id for the installed app",
+            "transformation": "LabelEncoding"
+        },
+        "ref_type": {
+            "desc": "either apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "ref_hash": {
+            "desc": "device's apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "click_hash": {
+            "desc": "hash for the install (like an id)",
+            "transformation": null
+        },
+        "attributed": {
+            "desc": "whether the install was attributed to Jampp",
+            "transformation": null
+        },
+        "implicit": {
+            "desc": "whether the install is implicit (the install was made by a device that has not installed according to the tracking platform)",
+            "transformation": null
+        },
+        "device_countrycode": {
+            "desc": "country code for the device",
+            "transformation": "string hashing"
+        },
+        "device_brand": {
+            "desc": "device's brand",
+            "transformation": "string hashing"
+        },
+        "device_model": {
+            "desc": "device's model",
+            "transformation": "string hashing"
+        },
+        "session_user_agent": {
+            "desc": "user-agent used for the install",
+            "transformation": null
+        },
+        "user_agent": {
+            "desc": "user agent related to the device",
+            "transformation": null
+        },
+        "event_uuid": {
+            "desc": "uuid4 generated for the event",
+            "transformation": null
+        },
+        "kind": {
+            "desc": "kind of install",
+            "transformation": null
+        },
+        "wifi": {
+            "desc": "boolean flagging if the install was performed on a wifi connection",
+            "transformation": null
+        },
+        "trans_id": {
+            "desc": "transaction id, used for joining",
+            "transformation": null
+        },
+        "ip_address": {
+            "desc": "ip addres through which the install was performed",
+            "transformation": "string hashing"
+        },
+        "device_language": {
+            "desc": "language related to the device",
+            "transformation": "string hashing"
+        }
+    },
+    "events": {
+        "date": {
+            "desc": "date when the event was performed",
+            "transformation": null
+        },
+        "event_id": {
+            "desc": "id generated for the event",
+            "transformation": "LabelEncoding"
+        },
+        "ref_type": {
+            "desc": "either apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "ref_hash": {
+            "desc": "the device's apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "application_id": {
+            "desc": "internal id for the event on which the event was performed",
+            "transformation": "LabelEncoding"
+        },
+        "attributed": {
+            "desc": "whether the event was attributed to Jampp",
+            "transformation": null
+        },
+        "device_countrycode": {
+            "desc": "country code related to the device",
+            "transformation": "string hashing"
+        },
+        "device_os_version": {
+            "desc": "os version used by the device",
+            "transformation": "string hashing"
+        },
+        "device_brand": {
+            "desc": "device's brand",
+            "transformation": "string hashing"
+        },
+        "device_model": {
+            "desc": "device's model",
+            "transformation": "string hashing"
+        },
+        "device_city": {
+            "desc": "inferred city where the event was performed",
+            "transformation": "string hashing"
+        },
+        "session_user_agent": {
+            "desc": "user agent sued in the session where the event was performed",
+            "transformation": "string hashing"
+        },
+        "trans_id": {
+            "desc": "transaction id",
+            "transformation": null
+        },
+        "user_agent": {
+            "desc": "user agent related to the device",
+            "transformation": "string hashing"
+        },
+        "event_uuid": {
+            "desc": "uuid4 generated for the event",
+            "transformation": null
+        },
+        "carrier": {
+            "desc": "device's mobile carrier",
+            "transformation": "string hashing"
+        },
+        "kind": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "device_os": {
+            "desc": "os used by the device",
+            "transformation": "string hashing"
+        },
+        "wifi": {
+            "desc": "boolean flagging whether the event was performed through a wifi connection",
+            "transformation": null
+        },
+        "connection_type": {
+            "desc": "",
+            "transformation": null
+        },
+        "ip_address": {
+            "desc": "ip addres the event came through",
+            "transformation": "string hashing"
+        },
+        "device_language": {
+            "desc": "language related to the device",
+            "transformation": "string hashing"
+        }
+    },
+    "auctions": {
+        "auction_type_id": {
+            "desc": "type of auction",
+            "transformation": null
+        },
+        "country": {
+            "desc": "country where the auction was originated",
+            "transformation": "string hashing"
+        },
+        "date": {
+            "desc": "date for the auction",
+            "transformation": null
+        },
+        "device_id": {
+            "desc": "device the auction came from",
+            "transformation": "string hashing"
+        },
+        "platform": {
+            "desc": "android, ios",
+            "transformation": null
+        },
+        "ref_type_id": {
+            "desc": "internal id for the ref_typew",
+            "transformation": null
+        },
+        "source_id": {
+            "desc": "source (exchange) the auction came from",
+            "transformation": "LabelEncoding"
+        }
+    }
+}
