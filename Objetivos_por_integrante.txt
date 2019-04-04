@@ -6,6 +6,12 @@ Joaquin:
 	*comparo horarios de clicks dependiendo si es fin de semana o no
 - Auctions: 
 	*nada por ahora, es para mostrar como ir escribiendo este archivo jajajaj
+	
+Pablo:
+	*mergear events e installs para obtener informacion adicional sobre los usuarios que installan la publicidad
+
+- Events
+	*agrupar eventos por device brand y analizar la dispersión de modelos de teléfono en las principales marcas
 
 
 *** VAYAN AGREGANDO SU NOMBRE Y LO Q HICIERON O HARAN (DETALLANDO EN QUE ARCHIVO)
