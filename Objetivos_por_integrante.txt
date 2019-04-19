@@ -11,6 +11,8 @@
     
 Pablo:
 	*mergear events e installs para obtener informacion adicional sobre los usuarios que installan la publicidad
+	*realización de histograma mostrando diferencias (en horas) entre ultimo evento previo a una conversión, y el evento que da lugar a la conversión
+	*busqueda de plataformas que cuenten una instalación como un evento
 
 - Events
 	*agrupar eventos por device brand y analizar la dispersión de modelos de teléfono en las principales marcas
